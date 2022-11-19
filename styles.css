@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Lato:wght@700&display=swap');
+@import url(//fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap);
+
+@import url(//fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Lato:wght@700&display=swap);
+
 
 
 /* paramettres globaux */
@@ -40,6 +42,7 @@ font-family: 'Bungee Spice';
   font-weight: 700;
   font-size: 64px;
   color : #fff;
+  user-select: none;
 }
 .CultureText{
   transition: all 0.4s ease 0s;
@@ -51,6 +54,7 @@ font-family: 'Bungee Spice';
 .nav{
   list-style: none;
   padding: 0px 20px;
+  user-select: none;
 }
 
 .home-nav a{
@@ -66,6 +70,7 @@ li, a , button{
     color : #fff;
     font-weight: 400;
     font-size: 25px;
+    user-select: none;
 }
 
 .Home{
@@ -99,6 +104,8 @@ button {
 
 /* nav bar */
 
+
+
 /* Landing */
 .main{
   display: flex;
@@ -126,6 +133,7 @@ button {
   bottom: 50px;
   left: 50%;
   transform:translateX(-50%);
+  user-select: none;
 }
 
 .gif {
@@ -135,9 +143,20 @@ button {
   bottom: 25px;
   left: 50%;
   transform:translate(-50%,0);
+  user-select: none;
 }
 
+
+
+
+
 /* Video */
+
+.block-video{
+  padding-top: 50px;
+  text-align: center;
+  background-color: #1B1C20;
+}
 
 .VideoTexte {
   font-family: 'Bungee Spice';
@@ -160,12 +179,6 @@ button {
   padding-top: 80px;
 }
 
-.video{
-  padding-top: 50px;
-  text-align: center;
-  background-color: #1B1C20;
-}
-
 .video-details{
   width: 100%;
   height: 900px;
@@ -173,10 +186,15 @@ button {
 
 /* Block 1 */
 
+
+
+
+
+
 .block-theatre{
   display: flex;
-  width: 100%;
-  height: 86vh;
+  width: 1900px;
+  height: 780px;
   background-color: #24252A;
 }
 
@@ -186,27 +204,31 @@ button {
   background-color: #E5AF17;
   width: 650px;
   height: 594px;
+  user-select: none;
 }
-
 
 .theatre{
   position: relative;
   max-width: 790px;
   max-height: 592px;
   margin: 150px 0 0 150px;
+  user-select: none;
 }
 
 .RectangleText1 {
   position: absolute;
-  margin: 100px;
+  margin-top: 70px;
+  margin-left: 100px;
   width: 818px;
   height: 645px;
   z-index: 1;
+  user-select: none;
 }
 
 .Icon-theatre {
   float:right;
   margin-right: 50px;
+  user-select: none;
 }
 
 .h1-theatre{
@@ -244,6 +266,7 @@ button {
   padding: 5px 70px;
   margin-top: 20px;
   margin-left: 0px;
+  user-select: none;
 }
 
 
@@ -252,32 +275,43 @@ button {
 }
 
 
+
+
+
+
 .block-cinema {
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  width:100%;
+  width: 1903px;
+  height: 1167px;
+  z-index: 1;
 }
 
 .RectangleOr2{
+  margin-top: 70px;
   position: absolute;
   background-color: #E5AF17;
   width: 1903px;
   height: 1027px;
+  user-select: none;
 }
 
 .cinema{
   position: relative;
   max-width: 773px;
   max-height: 1167px;
-  margin: -70px 0 0 1000px;
+  float: right;
+  margin-right: 81px;
   z-index: 2;
+  width:50%;
+  user-select: none;
 }
 
 .RectangleText2 {
   position:absolute;
-  margin: 100px;
-  width: 948.79px;
-  height: 817px;
-  left: -47px;
+  margin: 165px 98px;
+  width: 50%;
+  z-index: 1;
+  user-select: none;
 }
 
 .RectangleOr{
@@ -293,4 +327,95 @@ button {
   max-width: 790px;
   max-height: 592px;
   margin: 150px 0 0 150px;
+}
+
+.DanceuseCine {
+  position: absolute;
+  z-index: 4;
+  margin-top: 353px;
+  margin-left: 15px;
+  user-select: none;
+}
+
+.Icon-Cine {
+  position: absolute;
+  left: 38%;
+  margin-top: 37.5vh;
+  z-index: 4;
+  user-select: none;
+}
+
+.h1-cine{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 90vh;
+  max-height: 90vh;
+  position: absolute;
+
+  font-family: 'Bungee Spice';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+
+  width: 250px;
+  left: 24%;
+  z-index: 3;
+}
+
+.Cinema-text p{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 120vh;
+  max-height: 120vh;
+  position: absolute;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  width: 600px;
+  left: 20%;
+  color: #24252A;
+  z-index: 3;
+}
+
+.cine-btn {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 5px 70px;
+  margin-top: 70vh;
+  left: 26.5%;
+  position: absolute;
+  z-index: 3;
+}
+
+.cine-btn:hover {
+  background-color: #E5AF17;
+}
+
+
+
+.block-biblio {
+  width: 1900px;
+  height: 900px
+}
+
+.BiblioBackground {
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.Biblio {
+  position: absolute;
+  left: 12%;
+  margin-top: 118px;
 }
