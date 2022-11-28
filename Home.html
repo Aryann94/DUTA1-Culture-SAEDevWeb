@@ -1,111 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <head charset = UTF-8/>
-        <title>Culture In Montreuil</title>
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'> 
-        <LINK href="styles.css" rel="stylesheet" type="text/css"> 
-    </head>
-
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <title>Culture In Montreuil</title>
+</head>
     <body>
-    <header>
-      <!-- logo -->
-        <a class="logo" href="Home.html">
-          <i class='fa-solid fa-star' style='font-size:20px;color: #E5AF17'></i>
-          <p class="CultureText"> CULTURE </p>
-      <!-- logo -->
-        </a>
-        <!-- nav -->
-          <nav>
-            <ul class="nav">
-              <li><a class="Home"href="Home.html">Home</a></li>
-              <li><a href="#">Culture</a></li>
-              <li><a href="RGPD.html">RGPD</a></li>
-            </ul>
-          </nav>
-        <a class="button-contact" href="#"><button>Contact</button></a>
-        <!-- nav -->
-      </header>
+      <header>
+        <!-- logo -->
+          <a class="logo" href="Home.html">
+            <i class='fa-solid fa-star' style='font-size:20px;color: #E5AF17'></i>
+            <p class="CultureText"> CULTURE </p></a>
+        <!-- logo -->
+          <!-- nav -->
+            <nav>
+              <ul class="nav">
+                <li><a class="Home" href="Home.html">Home</a></li>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <span>discover</span>
+                    <div class="arrow"></div>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="Theatre.html">Theatre</a>
+                    <a href="#">Cinema</a>
+                    <a href="#">Library</a>
+                  </div>
+                </div>
+              </ul>
+            </nav>
+          <button class="button-contact" onclick="window.location.href = 'RGPD.html';">RGPD</button>
+          <!-- nav -->
+        </header>
 
-      <!-- page d'accueil -->
-      <main>
-        <section class="main">
-          <div class="main--landing">
-            <img class="Cercle"src="images/Cercle.svg" alt="photo">
-            <img class="gif"src="images/ScrollAnime.gif"alt="gif">
-          </div>
-        </section>
         <!-- page d'accueil -->
-
-        <section class="block-video">
-          <div class="video-details">
-            <p class="VideoTexte"> VIDEO <span class="VideoTexte2">OF PROJECT</span></p>
-            <video width="1222" height="686" controls="controls"poster="images/Miniature.jpg">
-              <source src="images/FinalSAE.mp4" type="video/mp4">
-            </video>
-          </div>
-        </section>
-        
-        <section class="block-theatre">
-          <div class="block-img">
-            <div class="RectangleOr"></div>
-            <img class="theatre"src="images/theatre.jpg" 
-            alt="photo">
-            <img class="RectangleText1"src="images/RectangleText1.svg" alt="photo">
-          </div>
-          <div class="block-text">
-            <img class="Icon-theatre"src="images/Icon-Theatre.png" alt="photo">
-            <h1 class="h1-theatre"> The Theatre Public Montreuil </h1>
-            <p class="p-theatre">Every year, more than 30 shows are programme in this theater. Such as traditional plays, dancperformances, music performances, smalconferences and also exhibitions. It gatherdifferent types of art: Pop Art, Modern ArtClassic Art...
-            </p>
-            <button class="block-btn"> read more ></button>
-          </div>
-        </section>
-
-        <section class="block-cinema">
-          <div class="block-details">
-            <div class="RectangleOr2"></div>
-            <img class="cinema" src="images/Cinema.jpg" alt="photo">
-            <img class="RectangleText2"src="images/RectangleTexte2.svg" alt="photo">
-            <img class="DanceuseCine"src="images/DanceuseCine.png" 
-            alt="photo">
-              <div class="Cinema-text">
-                <img class="Icon-Cine"src="images/Icon-Cine.png" alt="photo">
-                <h1 class="h1-cine"> The cinema le mÉlies </h1>
-                <p class="Cine-text">Different choices for movies between popular movies, art houses to promote independent cinemas along with older movies that come back once again on the screen. All of this for a decent price !</p>
-               <button class="cine-btn"> read more ></button>
+        <main>
+          <section class="main">
+            <div class="main--landing">
+              <img class="Cercle" src="images/Cercle.svg" alt="photo">
+              <img class="gif" src="images/ScrollAnime.gif" alt="gif">
             </div>
-          </div>
-        </section>
+          </section>
+          <!-- page d'accueil -->
 
-        <section class="block-biblio">
-          <div class="block-biblio">
-            <div class="Biblio-contents">
-                <img class="Icon-Biblio"src="images/Icon-Biblio.png" alt="photo">
-                <h1 class="h1-Biblio"> The library
-                  robert desnos </h1>
-                <p class="Biblio-text">192 000 books, 1 500 audiobooks, 50 000 CDs, 17 500 DVDs, 390 journals/magazines that you will find and way more in the Robert-Desnos library. Plus the loan is free !</p>
-               <button class="Biblio-btn"> read more ></button>
+          <section class="block-video">
+            <div class="video-details">
+              <p class="VideoTexte"> VIDEO <span class="VideoTexte2">OF PROJECT</span></p>
+              <video width="1222" height="686" controls="controls" poster="images/Miniature.jpg">
+                <source src="images/FinalSAE.mp4" type="video/mp4">
+              </video>
             </div>
+          </section>
+          
+          <section class="block-theatre">
+            <div class="block-img">
+              <div class="RectangleOr"></div>
+              <img class="theatre" src="images/theatre.jpg" 
+              alt="photo">
+              <img class="RectangleText1" src="images/RectangleText1.svg" alt="photo">
+            </div>
+            <div class="block-text">
+              <img class="Icon-theatre" src="images/Icon-Theatre.png" alt="photo">
+              <h1 class="h1-theatre"> The Theatre Public Montreuil </h1>
+              <p class="p-theatre">Every year, more than 30 shows are programme in this theater. Such as traditional plays, dancperformances, music performances, smalconferences and also exhibitions. It gatherdifferent types of art: Pop Art, Modern ArtClassic Art...
+              </p>
+              <button class="block-btn" onclick="window.location.href = 'Theatre.html';">read more ></button>
+            </div>
+          </section>
 
-            <img class="BiblioBackground"src="images/BiblioBackground.svg" alt="photo">
-            <img class="Biblio"src="images/Biblio.jpg" alt="photo">
-          </div>
-        </section>
-      </main>
+          <section class="block-cinema">
+            <div class="block-details">
+              <div class="RectangleOr2"></div>
+              <img class="cinema" src="images/Cinema.jpg" alt="photo">
+              <img class="RectangleText2" src="images/RectangleTexte2.svg" alt="photo">
+              <img class="DanceuseCine" src="images/DanceuseCine.png" 
+              alt="photo">
+                <div class="Cinema-text">
+                  <img class="Icon-Cine" src="images/Icon-Cine.png" alt="photo">
+                  <h1 class="h1-cine"> The cinema le mÉlies </h1>
+                  <p class="Cine-text">Different choices for movies between popular movies, art houses to promote independent cinemas along with older movies that come back once again on the screen. All of this for a decent price !</p>
+                <button class="cine-btn"> read more ></button>
+              </div>
+            </div>
+          </section>
 
-      <div class="footer">
-        <footer>
-          <div class="logo-footer">
-            <a class="logo-footer-lien" href="Home.html">
-            <i class='fa-solid fa-star' style='font-size:20px;color: #fff'></i></a>
-          </div>
-          <div class="footer-text">
-            <p>Copyright &copy; December 2022, TDB2 - Aryan,  Anesse, Mohammed, Kubra
-            </p>
-          </div>
-        </footer>
-      </div>
+          <section class="block-biblio">
+            <div class="block-biblio">
+              <div class="Biblio-contents">
+                  <img class="Icon-Biblio" src="images/Icon-Biblio.png" alt="photo">
+                  <h1 class="h1-Biblio"> The library
+                    robert desnos </h1>
+                  <p class="Biblio-text">192 000 books, 1 500 audiobooks, 50 000 CDs, 17 500 DVDs, 390 journals/magazines that you will find and way more in the Robert-Desnos library. Plus the loan is free !</p>
+                <button class="Biblio-btn"> read more ></button>
+              </div>
+
+              <img class="BiblioBackground" src="images/BiblioBackground.svg" alt="photo">
+              <img class="Biblio" src="images/Biblio.jpg" alt="photo">
+            </div>
+          </section>
+        </main>
+
+        <div class="footer">
+          <footer>
+            <div class="logo-footer">
+              <a class="logo-footer-lien" href="Home.html">
+              <i class='fa-solid fa-star' style='font-size:20px;color: #fff'></i></a>
+            </div>
+            <div class="footer-text">
+              <p>Copyright &copy; December 2022, TDB2 - Aryan,  Anesse, Mohammed, Kubra
+              </p>
+            </div>
+          </footer>
+        </div>
 
     </body>
 </html>

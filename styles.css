@@ -61,6 +61,65 @@ font-family: 'Bungee Spice';
   color: #808080;
 }
 
+
+
+.dropbtn {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 11px solid #fff;
+  margin-top: 12.5px;
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #24252A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #E5AF17;
+  color: #24252A;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #E5AF17;
+}
+
+
+
+
 li, a , button{
     margin: 0 10px 0 10px;
     text-decoration: none;
@@ -77,6 +136,8 @@ li, a , button{
   color: #808080;
 }
 
+
+
 .nav li a {
   transition: all 0.2s ease 0s;
 }
@@ -92,7 +153,7 @@ button {
     padding: 7px 15px;
 }
 
-.button-contact :hover{
+.button-contact:hover{
   background-color: #E5AF17;
 }
 
