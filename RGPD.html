@@ -2,33 +2,44 @@
 <html lang="fr">
 
 <head>
-
-  <head charset=UTF-8 />
-  <title>RGPD</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
   <LINK href="StylesRGPD.css" rel="stylesheet" type="text/css">
+  <title>RGPD</title>
 </head>
 
 <body>
+  <a href="#" class="scroll top" title="Go to the top">Top</a>
+  <a href="#bottom" class="scroll bottom" title="Go to the bottom">Bottom</a>
   <header>
-    <a class="logo" href="index.html" alt="">LOGO</a></li>
+    <!-- logo -->
+      <a class="logo" href="Home.html" title="Culture">
+        <i class='fa-solid fa-star' style='font-size:20px;color: #E5AF17'></i>
+        <p class="CultureText"> CULTURE </p></a>
+    <!-- logo -->
+      <!-- nav -->
+        <nav>
+            <a class="Home" href="Home.html" title="Home page">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <span>discover</span>
+                <i class= 'fa-sharp fa-solid fa-caret-down' style='padding-left: 5px; padding-top: 5px;'></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Theatre.html" title="Discover The Theatre">Theatre</a>
+                <a href="cinema.html" title="Discover The Cinema">Cinema</a>
+                <a href="biblio.html" title="Discover The Library">Library</a>
+              </div>
+            </div>
+        </nav>
+      <button class="button-contact" title="Learn more" onclick="window.location.href = 'RGPD.html';">GDPR</button>
+      <!-- nav -->
+    </header>
 
-    <div id="haut">
-      <nav>
-        <ul class="nav">
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="Culture.html">Culture</a></li>
-          <li><a class="RGPD"href="RGPD.html">RGPD</a></li>
-        </ul>
-      </nav>
-    </div>
-    <a class="button" href="#"><button>Contact</button></a>
-  </header>
 
   <main>
-
-    <div class="encrage">
-      <p>Allez directement en bas de page en cliquant <a href="#fin"> ici</a>.</p>
-    </div>
 
     <div id="contenue">
       <p>
@@ -86,33 +97,26 @@
         Enfin, n’oublions pas que toute entreprise doit, depuis mai 2018, désigner un délégué à la protection des
         données (DPD) - appelé aussi data protection officer (DPO).
       </p>
-
     </div>
 
     <div id="screenww3">
-
-      <figure class="card">
-        <img src="https://parlez-vous-francais.fr/wp-content/uploads/2021/05/exemple-example.jpg"
-          alt="Ce site respecte les conditions de la WW3" />
-        <figcaption class="overlay">
-          <p>validation du site selon les standards W3C</p>
-        </figcaption>
-      </figure>
-
     </div>
 
-    <div class="encrage">
-      <p>Allez en haut de page en cliquant <a href="#haut"> ici</a>.</p>
-    </div>
   </main>
 
-  <div id="fin">
+  <div class="footer">
     <footer>
-      <p>Copyright &copy;
-        <script></script>Décembre 2022, TDB2 - Aryan, Mohammed, Anesse, Kubra
-      </p>
+      <div class="logo-footer">
+        <a class="logo-footer-lien" href="Home.html" title="Culture">
+        <i class='fa-solid fa-star' style='font-size:20px;color: #fff'></i></a>
+      </div>
+      <div class="footer-text">
+        <p>Copyright &copy; December 2022, TDB2 - Aryan,  Anesse, Mohammed, Kubra
+        </p>
+      </div>
     </footer>
   </div>
+  <div id="bottom"></div>
 </body>
 
 </html>

@@ -10,35 +10,36 @@
 </head>
 
 <body>
+  <a href="#" class="scroll top" title="Go to the top">Top</a>
+  <a href="#bottom" class="scroll bottom" title="Go to the bottom">Bottom</a>
   <header>
     <!-- logo -->
-      <a class="logo" href="Home.html">
+      <a class="logo" href="Home.html" title="Culture">
         <i class='fa-solid fa-star' style='font-size:20px;color: #E5AF17'></i>
         <p class="CultureText"> CULTURE </p></a>
     <!-- logo -->
       <!-- nav -->
         <nav>
-          <ul class="nav">
-            <li><a class="Home" href="Home.html">Home</a></li>
+            <a class="Home" href="Home.html" title="Home page">Home</a>
             <div class="dropdown">
               <button class="dropbtn">
                 <span>discover</span>
-                <div class="arrow"></div>
+                <i class= 'fa-sharp fa-solid fa-caret-down' style='padding-left: 5px; padding-top: 5px;'></i>
               </button>
               <div class="dropdown-content">
-                <a href="Theatre.html">Theatre</a>
-                <a href="#">Cinema</a>
-                <a href="#">Library</a>
+                <a href="Theatre.html" title="Discover The Theatre">Theatre</a>
+                <a href="cinema.html" title="Discover The Cinema">Cinema</a>
+                <a href="biblio.html" title="Discover The Library">Library</a>
               </div>
             </div>
-          </ul>
         </nav>
-      <button class="button-contact" onclick="window.location.href = 'RGPD.html';">RGPD</button>
+      <button class="button-contact" title="Learn more" onclick="window.location.href = 'RGPD.html';">GDPR</button>
       <!-- nav -->
     </header>
 
     <main>
       <section class="main">
+        <a class="source" target="blank" title="Source de l'image" href="https://fr.freepik.com/vecteurs-libre/scene-theatre-sombre-rideaux-rouges-projecteur_7978826.htm#query=theatre&position=18&from_view=search&track=sph">Image de upklyak</a> <span class="sourceMore">sur Freepik</span>
         <div class="main--landing">
           <h1 class="TitrePrincip">ThÉÂtre public de montrueil</h1>
         </div>
@@ -57,13 +58,13 @@
 
             <h3 class="Titre">Les tarifs</h3>
  
-            <p class="text-contenu">Enfin pour les tarifs, s’offre à vous différents prix selon votre profil :</br></br>
+            <p class="text-contenu">Enfin pour les tarifs, s’offre à vous différents prix selon votre profil :<br><br>
 
-            -Le <span class="gras">Plein</span> à 23 € </br>
-            -Le <span class="gras">Réduit</span> 17 € pour habitante·s de Vincennes, Fontenay-sous-Bois, Saint-Mandé et Paris Xe, XIe, XIIe, XXe, abonné·e·s des théâtres partenaires, les plus de 65 ans)</br>
-            -Le <span class="gras">Super réduit</span> 14 € pour les habitant·e·s de Montreuil et de Seine-Saint-Denis, moins de 30 ans, intermittent·e·s, demandeur·euse·s d’emploi, familles nombreuses.</br>
-            -Le <span class="gras">Mini</span> 8€ pour les étudiant·e·s, personnes bénéficiaires des minima sociaux, personnes en situation de handicap et leur accompagnateur·rice et enfin les moins de 18 ans.</br>
-            -Un <span class="gras">Pass Jeune</span> conçu pour les moins de 25 ans, qui permet d’assister à trois spectacles aux choix pour 15 € soit 5 € la place.</p>
+            - Le <span class="gras">Plein</span> à 23 € <br>
+            - Le <span class="gras">Réduit</span> 17 € pour habitante·s de Vincennes, Fontenay-sous-Bois, Saint-Mandé et Paris Xe, XIe, XIIe, XXe, abonné·e·s des théâtres partenaires, les plus de 65 ans)<br>
+            - Le <span class="gras">Super réduit</span> 14 € pour les habitant·e·s de Montreuil et de Seine-Saint-Denis, moins de 30 ans, intermittent·e·s, demandeur·euse·s d’emploi, familles nombreuses.<br>
+            - Le <span class="gras">Mini</span> 8€ pour les étudiant·e·s, personnes bénéficiaires des minima sociaux, personnes en situation de handicap et leur accompagnateur·rice et enfin les moins de 18 ans.<br>
+            - Un <span class="gras">Pass Jeune</span> conçu pour les moins de 25 ans, qui permet d’assister à trois spectacles aux choix pour 15 € soit 5 € la place.</p>
           </article>
         </div>
 
@@ -72,9 +73,9 @@
           <aside>
             <div class="textAside">
             <h1 class="TitreAside">Plus d’information</h1>
-            <p class="LienAside"><span class="LienAsideGras">Liens de l’articile :</span><a class="LienAside" href="https://theatrepublicmontreuil.com/"target="blank">TheatrePublicMontreuil.com</a></p>
-          </aside>
+            <p class="LienAside"><span class="LienAsideGras">Liens de l’articile :</span><a class="LienAside" href="https://theatrepublicmontreuil.com/" target="blank" title="Theatre Public de Montreuil">TheatrePublicMontreuil.com</a></p>
           </div>
+        </aside>
         </div>
       </section>
     </main>
@@ -82,7 +83,7 @@
     <div class="footer">
       <footer>
         <div class="logo-footer">
-          <a class="logo-footer-lien" href="Home.html">
+          <a class="logo-footer-lien" href="Home.html" title="Culture">
           <i class='fa-solid fa-star' style='font-size:20px;color: #fff'></i></a>
         </div>
         <div class="footer-text">
@@ -91,6 +92,6 @@
         </div>
       </footer>
     </div>
-  
+    <div id="bottom"></div>
 </body>
 </html>
