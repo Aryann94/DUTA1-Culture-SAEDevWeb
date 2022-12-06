@@ -1,5 +1,4 @@
 @import url(//fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 @import url(//fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Lato:wght@700&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
@@ -68,12 +67,12 @@ header {
 }
 .logo p{
 font-size:20px;
-font-family: 'Bungee Spice', cursive;
+font-family: 'Bungee Spice';
 }
 
 .CultureText{
   text-align: center;
-  font-family: 'Bungee Spice', cursive;
+  font-family: 'Bungee Spice';
   font-weight: 700;
   font-size: 64px;
   color : #fff;
