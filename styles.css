@@ -1,4 +1,7 @@
 @import url(//fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url(//fonts.googleapis.com/css2?family=Bungee&display=swap);
+
 @import url(//fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Lato:wght@700&display=swap);
 
 
@@ -65,12 +68,12 @@ header {
 }
 .logo p{
 font-size:20px;
-font-family: 'Bungee Spice';
+font-family: 'Bungee;
 }
 
 .CultureText{
   text-align: center;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   font-weight: 700;
   font-size: 64px;
   color : #fff;
@@ -138,7 +141,7 @@ font-family: 'Bungee Spice';
 }
 
 /*button rgpd*/
-li, a , button{
+a , button{
     margin: 0 10px 0 10px;
     text-decoration: none;
     display: inline;
@@ -260,7 +263,7 @@ button {
 }
 
 .VideoTexte {
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -271,7 +274,7 @@ button {
 }
 
 .VideoTexte2 {
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -349,7 +352,7 @@ button {
 
 .block-text {
   padding: 25vh 0 0 190px;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   color: white;
   z-index: 2;
 }
@@ -445,7 +448,7 @@ button {
   max-height: 90vh;
   position: absolute;
 
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -535,7 +538,7 @@ button {
 .h1-Biblio{
   margin-top: 26vh;
   position: absolute;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
