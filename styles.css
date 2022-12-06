@@ -65,12 +65,12 @@ header {
 }
 .logo p{
 font-size:20px;
-font-family: 'Bungee Spice';
+font-family: 'Bungee Spice', 'Lato';
 }
 
 .CultureText{
   text-align: center;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   font-weight: 700;
   font-size: 64px;
   color : #fff;
@@ -87,7 +87,7 @@ font-family: 'Bungee Spice';
   list-style: none;
   padding: 0px 20px;
   user-select: none;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
 }
 .home-nav a{
   color: #808080;
@@ -143,7 +143,7 @@ li, a , button{
     margin: 0 10px 0 10px;
     text-decoration: none;
     display: inline;
-    font-family: 'Bungee Spice';
+    font-family: 'Bungee Spice', 'Lato';
     font-style: normal;
     color : #fff;
     font-weight: 400;
@@ -261,7 +261,7 @@ button {
 }
 
 .VideoTexte {
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -272,7 +272,7 @@ button {
 }
 
 .VideoTexte2 {
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -350,7 +350,7 @@ button {
 
 .block-text {
   padding: 25vh 0 0 190px;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   color: white;
   z-index: 2;
 }
@@ -446,7 +446,7 @@ button {
   max-height: 90vh;
   position: absolute;
 
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -536,7 +536,7 @@ button {
 .h1-Biblio{
   margin-top: 26vh;
   position: absolute;
-  font-family: 'Bungee Spice';
+  font-family: 'Bungee Spice', 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
